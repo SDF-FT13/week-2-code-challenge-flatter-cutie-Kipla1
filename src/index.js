@@ -1,4 +1,3 @@
-// DOM Elements
 const characterBar = document.getElementById('character-bar');
 const detailedInfo = document.getElementById('detailed-info');
 const characterName = document.getElementById('name');
@@ -7,11 +6,9 @@ const voteCount = document.getElementById('vote-count');
 const votesForm = document.getElementById('votes-form');
 const resetBtn = document.getElementById('reset-btn');
 
-// Global state to keep track of characters and current selection
 let characters = [];
 let currentCharacter = null;
 
-// Fetch all characters from the server
 function fetchCharacters() {
   fetch('http://localhost:3000/characters')
     .then(response => response.json())
@@ -22,7 +19,7 @@ function fetchCharacters() {
     .catch(error => console.error('Error fetching characters:', error));
 }
 
-// Display all character names in the character bar
+
 function displayCharacters(characters) {
   characterBar.innerHTML = '';
   characters.forEach(character => {
