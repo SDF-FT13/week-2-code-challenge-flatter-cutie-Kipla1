@@ -29,6 +29,7 @@ html, body {
 
 #character-bar span {
   padding: 1%;
+  margin: auto;
   height: 80%;
   width: 10vw;
   display: flex;

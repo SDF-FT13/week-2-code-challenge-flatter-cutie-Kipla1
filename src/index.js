@@ -28,7 +28,6 @@ function displayCharacters(characters) {
     span.classList.add('character-item');
     span.dataset.id = character.id;
     
-    // Add click event to display character details
     span.addEventListener('click', () => 
       {
         currentCharacter = character;

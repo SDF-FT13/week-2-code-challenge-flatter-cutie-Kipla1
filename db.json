@@ -1,33 +1,165 @@
 {
   "characters": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Mr. Cute",
       "image": "https://i.pinimg.com/474x/66/39/67/663967d4b2e2c4d974eb111aa2ad8215.jpg",
       "votes": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Mx. Monkey",
       "image": "https://i.pinimg.com/originals/a1/38/02/a13802f1afe98af756fabf2492b7106f.gif",
       "votes": 0
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ms. Zebra",
       "image": "https://media.giphy.com/media/atuUZHwkaGgms/giphy.gif?cid=790b76112q7dm9h9tzlr5a4dzgbhu0sbw8uxzy5tcr08s2jd&ep=v1_gifs_search&rid=giphy.gif&ct=g",
       "votes": 0
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Dr. Lion",
       "image": "https://media.giphy.com/media/13l4BcqT2FYCWI/giphy.gif?cid=790b76112q7dm9h9tzlr5a4dzgbhu0sbw8uxzy5tcr08s2jd&ep=v1_gifs_search&rid=giphy.gif&ct=g",
       "votes": 0
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Mme. Panda",
       "image": "https://media.giphy.com/media/112TRnXkSiuGCQ/giphy.gif?cid=790b7611tie4rnnjj2jz752s76pf4w85rfyajjnw468b7ekt&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+      "votes": 0
+    },
+    {
+      "id": "e00b",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "ba33",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "221f",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "eb9e",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "a1f9",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "955b",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "78b2",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "8991",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "7d8f",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "62b6",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "3980",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "a1b8",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "34f5",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "ffcb",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "0015",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "79c0",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "ddb6",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "f133",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "7015",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "f96b",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "c492",
+      "name": "",
+      "image": "",
+      "votes": 0
+    },
+    {
+      "id": "73bc",
+      "name": "",
+      "image": "",
       "votes": 0
     }
   ]
