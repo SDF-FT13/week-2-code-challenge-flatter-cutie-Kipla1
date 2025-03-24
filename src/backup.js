@@ -67,37 +67,49 @@ function resetVotes() {
   voteCount.textContent = 0;
 }
 
-const characterDetails = {
-  name: newName.value,
-  image: imageUrl.value,
-  votes: 0
+function displayCharactersDetails(character){
+  characterName.textContent = character.name
+  characterImage.image = character.image
+  characterImage.alt = character.name
+  voteCount.textContent = character.votes
 }
 
-function addCharacters(){
+
+function addCharacters(event){
+  event.preventDefault()
+  
+  const name = newName.value
+  const image = imageUrl.value  
+
+  const characterDetails = {
+    name: newName.value,
+    image: imageUrl.value,
+    votes: 0
+  }
+
     fetch('http://localhost:3000/characters', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body:JSON.stringify(characterDetails)
     })
+    .then(response => response.json())
+    .then(data => {
+      characters.push(data)
+      displayCharacters(characters)
+      displayCharactersDetails(data)
+    })
     .catch(error => console.error(error))
 
 
-  characterInput.addEventListener('click', ()=>{
-    const newSpan = document.createElement('span')
-    const characterImage = document.createElement('img')
-    newSpan.textContent = newName.value
-    characterImage.src = imageUrl.value
-    
-    characterBar.appendChild(newSpan)
-
-  })
+    characterForm.reset()
 }
 
 function initialize() {
-  fetchCharacters('http://localhost:3000/characters')
-  
+  fetchCharacters()
+
   votesForm.addEventListener('submit', addVotes);
   resetBtn.addEventListener('click', resetVotes);
+  characterForm.addEventListener('submit', addCharacters)
 }
 
 
